@@ -1,0 +1,23 @@
+
+    .container {
+    position: relative;
+    margin: auto;
+    }
+    .left, .right {
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    border-radius: 0 3px 3px 0;
+    }
+    .right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+    .left:hover, .right:hover {
+    background-color: rgba(115, 115, 115, 0.8);
+    }
+ 
+    
